@@ -1,9 +1,11 @@
 inp = input()
 arr = inp.split()
+w = int(arr[0])
+h = int(arr[1])
 
-a = int(arr[0]) + 8
-b = int(arr[1]) * 3
+w += 8
+h *= 3
 
-print(a)
-print(b)
-print(a * b)
+print(w)
+print(h)
+print(w * h)

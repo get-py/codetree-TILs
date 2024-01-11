@@ -1,5 +1,7 @@
 a = int(input())
 b = int(input())
 
-print(a + 87)
-print(b % 10)
+a += 87
+b %= 10
+print(a)
+print(b)

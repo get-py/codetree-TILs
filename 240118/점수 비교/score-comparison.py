@@ -6,4 +6,4 @@ b_math, b_eng = int(b_arr[0]), int(b_arr[1])
 if a_math > b_math and a_eng > b_eng:
     print(1)
 else:
-    print(2)
+    print(0)

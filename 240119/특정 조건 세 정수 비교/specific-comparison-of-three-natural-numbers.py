@@ -2,7 +2,7 @@ arr = input().split()
 a, b, c = int(arr[0]), int(arr[1]), int(arr[2])
 
 
-if a == int(min(arr)):
+if a == int(min(a, b, c)):
     print(1, end=' ')
 else:
     print(0, end=' ')

@@ -3,7 +3,7 @@ a, b = int(arr[0]), int(arr[1])
 c = 0
 if a > b:
     c = b
-    a = b
+    b = a
     a = c
 sum_val = 0
 
